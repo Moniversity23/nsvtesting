@@ -1,85 +1,9 @@
 <!DOCTYPE html>
-<html class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang>
-
-    <head><script src="/rder-theere-non-Cawdor-three-How-Fath-Action-mos" async></script>
-
+<html>
+   
         
         
-        <script>
-            /*
-             Strategically place:
-             markUserTime('some event');
-             Through your code to get measurements for when various activities complete.  It
-             will also generate timeline events so you can see them in Chrome's dev tools.
-             A good use case is to add them inline to sections of your site that are
-             above-the fold (right after the menu, right after the main story, etc) and also
-             in the onload handler for any critical above-the-fold images.
-             */
-            ;(function () {
-                var w = typeof window != 'undefined' ? window : exports,
-                        marks = [];
-                w.performance || (w.performance = {});
-                w.performance.now || (
-                        w.performance.now = performance.now || performance.webkitNow ||
-                                performance.msNow || performance.mozNow);
-                if (!w.performance.now){
-                    var s = Date.now ? Date.now() : +(new Date());
-                    if (performance.timing && performance.timing)
-                        s = performance.timing.navigationStart
-                    w.performance.now = (function(){
-                        var n = Date.now ? Date.now() : +(new Date());
-                        return n-s;
-                    });
-                }
-                w.performance.mark || (
-                        w.performance.mark =
-                                w.performance.webkitMark ? w.performance.webkitMark :
-                                        (function (l) {
-                                            marks.push({'name':l,'entryType':'mark','startTime':w.performance.now(),'duration':0});
-                                        }));
-                w.performance.getEntriesByType || (
-                        w.performance.getEntriesByType =
-                                w.performance.webkitGetEntriesByType ? w.performance.webkitGetEntriesByType :
-                                        (function (t) {
-                                            return t == 'mark' ? marks : undefined;
-                                        }));
-            }());
-            window.markUserTime = function(l) {
-                var raf = window['requestAnimationFrame'] ||
-                        (function(callback){setTimeout(callback, 0);});
-                raf(function(){
-                    window.performance.mark(l);
-                    if (window['console'] && console['timeStamp'])
-                        console.timeStamp(l);
-                });
-            };
-        </script>
-
-        
-
-
-
-
-    <script></script>
-
-
-
-
-    <link rel="canonical" href="https://www.nsbank.com/"/>
-
-
-
-
-
-    
-    <script type="text/javascript" src="/retention.js" defer="defer"></script>
-
-    
-    <script>
-        markUserTime('loginInjections');
-    </script>
-
-
+      
 
 
 
@@ -89,32 +13,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 
-
-
-
-
-<script></script>
-
-
-<script>
-    markUserTime('Global Head Loaded');
-</script>
-
         
         
-
-
-
-
-
-
-
-
-
-
-    <link rel="canonical" href="https://www.nsbank.com/"/>
-
-
 
 <title>It Matters WHO You Bank With | Nevada State Bank</title>
 
@@ -140,15 +40,6 @@
 
 
 
-
-
-
-<script>
-    markUserTime('NSB Global Head Loaded');
-</script>
-
-
-
     
  <!-- Compiled and minified CSS -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -165,38 +56,7 @@
 
     
     
-<script type="text/javascript" src="/etc.clientlibs/nsb/nsbank/clientlibs/nsb_base.min.591a68a28b24e377713f43018a46d44e.js"></script>
-
-
-
-
-
-
-    
-    
 <link rel="stylesheet" href="/etc.clientlibs/nsb/nsbank/clientlibs/nsb_page_landing.min.597df6aa2762641f24b7e451826df383.css" type="text/css">
-
-
-
-
-
-
-
-
-<script>
-    markUserTime('NSB Template Head Loaded');
-</script>
-
-
-        
-        
-
-    
-    
-
-
-
-
 
 
 
